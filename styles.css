@@ -16,7 +16,9 @@ main {
 }
 
 #logo {
-  font-size: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 header div {
