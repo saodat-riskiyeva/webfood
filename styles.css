@@ -3,6 +3,13 @@ header a {
   text-decoration: none;
 }
 
+header a:hover {
+  background-color: rgb(45, 43, 40);
+  margin: 4px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -18,10 +25,18 @@ main {
 
 header div {
   display: flex;
-  justify-content: space-between;
-  width: 200px;
+  justify-content: right;
+  width: 300px;
+  height: 40px;
   margin: 0 20px;
-  padding: 10px;
+}
+
+.nav-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  padding: 0 20px;
 }
 
 #logo {
