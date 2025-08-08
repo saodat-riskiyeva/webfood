@@ -19,10 +19,16 @@ main {
   font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
+  margin: 0 20px;
+  padding: 10px;
 }
 
 header div {
   display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin: 0 20px;
+  padding: 10px;
 }
 
 section ul {
