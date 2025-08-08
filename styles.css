@@ -1,34 +1,31 @@
-header a {
-  color: orange;
-  text-decoration: none;
-}
-
-header a:hover {
-  background-color: rgb(45, 43, 40);
-  margin: 4px;
-  padding: 5px;
-  border-radius: 5px;
-}
-
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: rgb(81, 88, 81); /* Green background */
+  padding: 15px;
 }
 
-main {
+header a {
   color: orange;
-  background-color: rgb(112, 110, 110);
-  height: 700px;
+  text-decoration: none;
+  margin: 0 3px;
+  padding: 0 2px;
+}
+
+#logo {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  height: 30px;
 }
 
 header div {
   display: flex;
   justify-content: right;
   width: 300px;
-  height: 40px;
-  margin: 0 20px;
+  height: 30px;
+  margin: 0 5px;
 }
 
 .nav-links a {
@@ -36,15 +33,17 @@ header div {
   justify-content: center;
   align-items: center;
   width: 140px;
-  padding: 0 20px;
 }
 
-#logo {
-  font-size: 30px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin: 0 20px;
-  padding: 10px;
+.nav-links a:hover {
+  background-color: rgb(45, 43, 40);
+  border-radius: 5px;
+}
+
+main {
+  color: orange;
+  background-color: rgb(112, 110, 110);
+  height: 700px;
 }
 
 h1 {
