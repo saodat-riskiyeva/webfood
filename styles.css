@@ -1,0 +1,40 @@
+body {
+  color: orange;
+}
+
+header a {
+  text-decoration: none;
+}
+
+main {
+  background-color: rgb(112, 110, 110);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(81, 88, 81); /* Green background */
+}
+
+header a {
+  text-decoration: none;
+}
+
+#logo {
+  font-size: 50px;
+}
+
+header div {
+  display: flex;
+}
+
+section ul {
+  display: flex;
+}
+
+main img {
+  width: 300px;
+  height: 100%;
+  object-fit: cover;
+}
