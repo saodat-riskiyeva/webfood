@@ -1,44 +1,47 @@
-header {
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  background-color: rgb(44, 41, 38);
+}
+
+a {
+  text-decoration: none;
+}
+
+#main-header {
+  height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(81, 88, 81); /* Green background */
-  padding: 15px;
-}
-
-header a {
-  color: orange;
-  text-decoration: none;
-  margin: 0 3px;
-  padding: 0 2px;
+  background-color: rgb(29, 26, 24);
+  padding: 0 20px; /* Green background */
 }
 
 #logo {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: bold;
+  color: rgb(238, 134, 80);
   text-transform: uppercase;
-  height: 30px;
 }
 
-header div {
+#main-header ul {
+  list-style: none;
   display: flex;
-  justify-content: right;
-  width: 300px;
-  height: 30px;
-  margin: 0 5px;
+  margin: 0;
+  padding: 0;
 }
 
-.nav-links a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 140px;
+#main-header li {
+  margin: 0 16px;
 }
 
-.nav-links a:hover {
-  background-color: rgb(45, 43, 40);
-  border-radius: 5px;
+#main-header nav a {
+  color: rgb(185, 131, 31);
+  font-size: 20px;
 }
+
+#main-header nav a:hover {
+  color: rgb(228, 163, 44);
 
 main {
   color: orange;
@@ -63,14 +66,18 @@ li {
   margin: 10px;
 }
 
-li img {
+li article {
+  heoght: 400px;
+}
+
+li article img {
   width: 300px;
-  height: 100%;
+  height: 200px;
   object-fit: cover;
   border-radius: 10px 10px 0 0;
 }
 
-li a {
+/* li a {
   color: white;
   background-color: rgb(243, 172, 50);
   padding: 5px;
@@ -81,13 +88,13 @@ li a {
 
 li a:hover {
   background-color: rgb(247, 145, 3);
-}
+} */
 
 h2 {
   color: black;
 }
 
-.meal-name {
+.food-item-content {
   display: flex;
   align-items: center;
   justify-content: center;
