@@ -20,7 +20,7 @@ a {
 #logo {
   font-size: 24px;
   font-weight: bold;
-  color: rgb(238, 134, 80);
+  color: rgb(238, 164, 80);
   text-transform: uppercase;
 }
 
@@ -42,63 +42,51 @@ a {
 
 #main-header nav a:hover {
   color: rgb(228, 163, 44);
-
-main {
-  color: orange;
-  background-color: rgb(112, 110, 110);
-  height: 700px;
 }
 
-h1 {
-  margin-top: 0;
-  padding-top: 20px;
+main h1 {
   text-align: center;
+  color: rgb(238, 164, 80);
+  font-size: 48px;
 }
 
-section ul {
-  display: flex;
-  justify-content: center;
+#latest-products {
+  width: 80%;
+  margin: 50px auto;
 }
 
-li {
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
+#latest-products ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
 }
 
-li article {
-  heoght: 400px;
+.food-item {
+  background-color: rgb(228, 206, 182);
+  border-radius: 6px;
+  overflow: hidden;
 }
 
-li article img {
-  width: 300px;
-  height: 200px;
+.food-item img {
+  height: 240px;
+  width: 100%;
   object-fit: cover;
-  border-radius: 10px 10px 0 0;
-}
-
-/* li a {
-  color: white;
-  background-color: rgb(243, 172, 50);
-  padding: 5px;
-  border-radius: 5px;
-  width: 150px;
-  margin-bottom: 5px;
-}
-
-li a:hover {
-  background-color: rgb(247, 145, 3);
-} */
-
-h2 {
-  color: black;
 }
 
 .food-item-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  padding: 16px;
   text-align: center;
-  background-color: rgb(249, 226, 186);
+}
+
+.btn {
+  background-color: rgb(228, 157, 44);
+  color: white;
+  border-radius: 4px;
+  padding: 8px 24px;
+}
+
+.btn:hover {
+  background-color: rgb(221, 134, 34);
 }
