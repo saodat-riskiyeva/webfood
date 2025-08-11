@@ -96,4 +96,8 @@ main h1 {
   #latest-products ul {
     grid-template-columns: 100%;
   }
+
+  main h1 {
+    font-size: 1.5rem;
+  }
 }
