@@ -12,6 +12,11 @@ body {
   --color-primary-2: rgb(253, 239, 213);
   --color-primary-3: rgb(185, 131, 31);
 
+--size-1: 1.25rem;
+--size-2: 1.5rem;
+--size-2_2: 2rem;
+--size-3: 3rem;
+
   font-family: "Open Sans", sans-serif;
   margin: 0;
   background-color: var(--color-background-1);
@@ -31,7 +36,7 @@ a {
 }
 
 #logo {
-  font-size: 1.5rem;
+  font-size: var(--size-2);
   font-weight: bold;
   color: var(--color-primary-logo);
   text-transform: uppercase;
@@ -65,7 +70,7 @@ a {
 
 #main-header nav a {
   color: var(--color-primary-3);
-  font-size: 1.25rem;
+  font-size: var(--size-2);
 }
 
 #main-header nav a:hover {
@@ -109,13 +114,13 @@ a {
 
 #side-drawer a {
   color: var(--color-primary-2);
-  font-size: 2rem;
+  font-size: var(--size-2_2);
 }
 
 main h1 {
   text-align: center;
   color: var(--color-primary-logo);
-  font-size: 3rem;
+  font-size: var(--size-3);
 }
 
 #latest-products {
@@ -174,7 +179,7 @@ main h1 {
   }
 
   main h1 {
-    font-size: 1.5rem;
+    font-size: var(--size-2);
   }
 
   #latest-products ul {
