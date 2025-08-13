@@ -1,10 +1,9 @@
 body {
-  --color-background-1: rgb(44, 41, 38)
+  --color-background-1: rgb(44, 41, 38);
   --color-background-2: rgb(29, 26, 27);
   --color-background-3: rgb(228, 206, 182);
   --color-background-4: rgb(221, 134, 34);
   --color-background-5: rgb(228, 157, 44);
-
 
   --color-primary-logo: rgb(238, 164, 80);
 
@@ -12,10 +11,10 @@ body {
   --color-primary-2: rgb(253, 239, 213);
   --color-primary-3: rgb(185, 131, 31);
 
---size-1: 1.25rem;
---size-2: 1.5rem;
---size-2_2: 2rem;
---size-3: 3rem;
+  --size-1: 1.25rem;
+  --size-2: 1.5rem;
+  --size-2_2: 2rem;
+  --size-3: 3rem;
 
   font-family: "Open Sans", sans-serif;
   margin: 0;
@@ -40,6 +39,10 @@ a {
   font-weight: bold;
   color: var(--color-primary-logo);
   text-transform: uppercase;
+}
+
+#logo:hover {
+  transform: scale(1.5);
 }
 
 .menu-btn {
