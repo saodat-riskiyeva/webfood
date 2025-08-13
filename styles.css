@@ -39,6 +39,7 @@ a {
   font-weight: bold;
   color: var(--color-primary-logo);
   text-transform: uppercase;
+  transition: transform 0.5s ease-out 0.05s;
 }
 
 #logo:hover {
@@ -144,6 +145,11 @@ main h1 {
   background-color: var(--color-background-3);
   border-radius: 6px;
   overflow: hidden;
+  transition: transform 0.5s ease-out 0.05s;
+}
+
+.food-item:hover {
+  transform: scale(1.05);
 }
 
 .food-item img {
