@@ -1,7 +1,9 @@
 body {
+  --color-backgeound-1: rgb(44, 41, 38)
+
   font-family: "Open Sans", sans-serif;
   margin: 0;
-  background-color: rgb(44, 41, 38);
+  background-color: var(--color-backgeound-1);
 }
 
 a {
